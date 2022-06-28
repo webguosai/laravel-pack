@@ -1,0 +1,30 @@
+{
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "~7|~8"
+    },
+    "authors": [
+        {
+            "name": "webguosai",
+            "email": "501807312@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webguosai\\LaravelPack\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webguosai\\LaravelPack\\Providers\\PackServiceProvider"
+            ],
+            "aliases": {
+                "Pack": "Webguosai\\LaravelPack\\Facades\\Pack"
+            }
+        }
+    }
+}
