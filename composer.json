@@ -32,5 +32,6 @@
                 "Pack": "Webguosai\\LaravelPack\\Facades\\Pack"
             }
         }
-    }
+    },
+    "license": "MIT"
 }
