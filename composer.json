@@ -1,4 +1,10 @@
 {
+    "name": "webguosai/laravel-pack",
+    "description": "laravelÀ©Õ¹°üÑÝÊ¾",
+    "support": {
+        "issues": "https://github.com/webguosai/laravel-pack/issues",
+        "source": "https://github.com/webguosai/laravel-pack"
+    },
     "require": {
         "php": "^7.2.5",
         "illuminate/support": "~7|~8"
